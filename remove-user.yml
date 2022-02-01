@@ -1,0 +1,5 @@
+- name: Start remove user
+  hosts: all
+  become: true
+  roles:
+     - removeuser

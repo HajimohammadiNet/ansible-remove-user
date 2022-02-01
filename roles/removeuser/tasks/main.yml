@@ -1,0 +1,5 @@
+- name: Remove the user
+  ansible.builtin.user:
+    name: "{{ rmuser.username }}"
+    state: absent
+    remove: yes
